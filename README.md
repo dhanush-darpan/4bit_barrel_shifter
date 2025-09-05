@@ -26,7 +26,6 @@ This project implements a 4-bit barrel shifter using Verilog HDL. A barrel shift
 - Embedded Systems: Efficient peripheral data handling  
 
 **Future Enhancements**  
-- Add support for bitwise rotate operations  
 - Expand to n-bit designs for broader utility  
 - Prototype on FPGA for hardware validation  
 
