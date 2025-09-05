@@ -1,0 +1,202 @@
+$date
+   Fri Sep  5 12:53:58 2025
+$end
+
+$version
+  2025.1.0
+  $dumpfile ("waveform.vcd") 
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module barrel_shifter_4bit_tb $end
+$var reg 4 ! data_in [3:0] $end
+$var reg 2 " shift_amt [1:0] $end
+$var reg 3 # mode [2:0] $end
+$var wire 4 $ data_out [3:0] $end
+$scope module uut $end
+$var wire 4 % data_in [3:0] $end
+$var wire 2 & shift_amt [1:0] $end
+$var wire 3 ' mode [2:0] $end
+$var reg 4 ( data_out [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+b1011 !
+b1 "
+b0 #
+b110 $
+b1011 %
+b1 &
+b0 '
+b110 (
+$end
+
+#10000
+b10 "
+b1 #
+b10 $
+b10 &
+b1 '
+b10 (
+
+#20000
+b10 #
+b1100 $
+b10 '
+b1100 (
+
+#30000
+b11 #
+b1110 $
+b11 '
+b1110 (
+
+#40000
+b11 "
+b100 #
+b1101 $
+b11 &
+b100 '
+b1101 (
+
+#50000
+b10 "
+b101 #
+b1110 $
+b10 &
+b101 '
+b1110 (
+
+#60000
+b1001 !
+b1 "
+b0 #
+b10 $
+b1001 %
+b1 &
+b0 '
+b10 (
+
+#70000
+b10 "
+b1 #
+b10 &
+b1 '
+
+#80000
+b10 #
+b100 $
+b10 '
+b100 (
+
+#90000
+b11 #
+b1110 $
+b11 '
+b1110 (
+
+#100000
+b11 "
+b100 #
+b1100 $
+b11 &
+b100 '
+b1100 (
+
+#110000
+b10 "
+b101 #
+b110 $
+b10 &
+b101 '
+b110 (
+
+#120000
+b1101 !
+b1 "
+b0 #
+b1010 $
+b1101 %
+b1 &
+b0 '
+b1010 (
+
+#130000
+b10 "
+b1 #
+b11 $
+b10 &
+b1 '
+b11 (
+
+#140000
+b10 #
+b100 $
+b10 '
+b100 (
+
+#150000
+b11 #
+b1111 $
+b11 '
+b1111 (
+
+#160000
+b11 "
+b100 #
+b1110 $
+b11 &
+b100 '
+b1110 (
+
+#170000
+b10 "
+b101 #
+b111 $
+b10 &
+b101 '
+b111 (
+
+#180000
+b110 !
+b1 "
+b0 #
+b1100 $
+b110 %
+b1 &
+b0 '
+b1100 (
+
+#190000
+b10 "
+b1 #
+b1 $
+b10 &
+b1 '
+b1 (
+
+#200000
+b10 #
+b1000 $
+b10 '
+b1000 (
+
+#210000
+b11 #
+b1 $
+b11 '
+b1 (
+
+#220000
+b11 "
+b100 #
+b11 $
+b11 &
+b100 '
+b11 (
